@@ -9,7 +9,7 @@ I made this tiny script. There are two functions:
 ## Requirements
 
 Only one lib is required: `matplotlib`
-
+https://raw.githubusercontent.com/focusheart/deadline-is-coming/master/demo.png
 ## Usage
 
 Only two steps are required:
@@ -18,4 +18,6 @@ Only two steps are required:
    Please refer to the format of `conf.txt`.
 2. run the script `draw_calendar.py`
 
+After that, a pdf file will be in the same folder:
 
+![](https://raw.githubusercontent.com/focusheart/deadline-is-coming/master/demo.png)
