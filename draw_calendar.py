@@ -4,6 +4,9 @@ import datetime
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 
+# texts
+txt_page_title = '%s Conference Deadlines'
+
 # base config drawing
 font = {'size': 6}
 mpl.rc('font', **font)
@@ -74,7 +77,7 @@ bg_ranks = {'A':'black', 'B':'dimgray', 'C':'gray', 'N':'lightgray'}
 fg_ranks = {'A':'white', 'B':'white', 'C':'black', 'N':'black'}
 
 # title
-ax.text(0, 0.6, '%s Conference Deadlines' % year, va='bottom', ha='left', fontdict=fd_title)
+ax.text(0, 0.6, txt_page_title % year, va='bottom', ha='left', fontdict=fd_title)
 
 # a header for weekday label
 ax.plot([0, 28], [.5, .5], 'k-', linewidth=2)
